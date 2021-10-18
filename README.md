@@ -4,6 +4,7 @@ AMP-PD_2021 Explanation
 Look in relation to /projects/b1049/brent/scripts/bash_scripts/AMPPD_pipeline.sh
 
 Base Files:
+
 chr1.vcf.gz and chr1.vcf.gz.tbi are the original nonfiltered VCF files of AMPPD in chromosome 1
 
 chr1_filtering_commandline.txt is the filtering code first used by Bernabe
