@@ -17,6 +17,12 @@ releases_2020_v2release_1218_amp_pd_participant_mutations.csv shows whether an i
 
 releases_2020_v2release_1218_clinical_Clinically_Reported_Genetic_Status.csv and releases_2020_v2release_1218_clinical_Clinically_Reported_Genetic_Status_dictionary.csv show genetic status of individuals based off PD-associated mutations or WGS-selected PD-associated variants.
 
+chr1-22.OnlyPASS_DP20_GQ20_CR90.MultiSplit.SNPsInDels.RawID.bcftools.April2021.PD_CC_QCedIndiv.MAF01.CandidateVars.CADD12.37.vcf.gz is the clean AMP-PD dataset used to run the rvtest burden analyses
+
+refFlat_hg38.txt used as reference file during rvtests
+
+Main Files (Used in pipeline):
+
 chr1.vcf.gz is the original AMPPD chr1 VCF file
 
 chr1_GBA_extract_commandline.txt has the code to extract GBA from the chr1 file to allow working with a smaller file and outputs into AMPPD_GBA.vcf
