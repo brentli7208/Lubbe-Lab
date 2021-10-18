@@ -53,3 +53,12 @@ AMPPD_carriers_cases.txt and AMPPD_carriers_controls.txt have all individuals wi
 
 AMPPD_carriers_cases_duplicates.txt and AMPPD_carriers_cases_duplicates.txt have individuals with multiple variants in different locations (2 or more). Files with only the individuals' name is in AMPPD_2allele_cases.txt and AMPPD_2allele_controls.txt
 
+AMPPD_no2_variant_carriers_cases.txt and AMPPD_no2_variant_carriers_controls.txt show which individuals had mutations in another variant.
+
+AMPPD_brent_.Covars_Pheno_carriership_noncar_cases.txt, AMPPD_brent_.Covars_Pheno_carriership_noncar_controls.txt, AMPPD_brent_.Covars_Pheno_carriership_car_cases.txt, and AMPPD_brent_.Covars_Pheno_carriership_car_controls.txt have pheno files with the carriership (1=noncarrier, 2=carrier) added. All of these files were joined into AMPPD_brent_Covars_Pheno_carriership.txt
+
+tabix_chr1-22.OnlyPASS_DP20_GQ20_CR90.MultiSplit.SNPsInDels.RawID.bcftools.April2021.PD_CC_QCedIndiv.MAF01.CandidateVars.CADD12.37.vcf.gz took filtered file and removed "chr" from 1st column (CHROM).
+
+tabix_chr1-22.OnlyPASS_DP20_GQ20_CR90.MultiSplit.SNPsInDels.RawID.bcftools.April2021.PD_CC_QCedIndiv.MAF01.CandidateVars.CADD12.37.vcf.gz.tbi is the tabix indexed file to allow for rvtest to run.
+
+AMPPD_2021_wCovs_analyses.SkatO.assoc, AMPPD_2021_wCovs_analyses.SingleFirth.assoc, and AMPPD_2021_wCovs_analyses.CMCFisherExact.assoc have the results of the three separate tests (kernel SKAT-O, single Firth, and burden exactCMC respectively) The analysis log for all three tests are within AMPPD_2021_wCovs_analyses.log.
